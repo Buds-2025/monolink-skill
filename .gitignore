@@ -1,0 +1,5 @@
+# Keep local working files out of the package repository.
+AGENTS.md
+
+monolink-skill/
+原始素材/
