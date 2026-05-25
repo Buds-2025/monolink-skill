@@ -51,3 +51,19 @@ monolink-skill/
 Extract `monolink-skill.zip` into your Codex skills directory.
 
 The zip contains the complete skill folder and is the artifact intended for installation or sharing.
+
+## Generated Output Naming
+
+AI-generated images created for this project should be saved under `output/`.
+
+Before naming, inspect each image and identify its actual theme. Use this filename format:
+
+```text
+YYYYMMDD-theme-##.png
+```
+
+- `YYYYMMDD`: generation or batch date, such as `20260525`
+- `theme`: Chinese image theme, such as `思念`, `选择`, or `高兴`
+- `##`: two-digit sequence number, such as `01`, `02`, `14`
+
+Example: `20260525-思念-07.png`
