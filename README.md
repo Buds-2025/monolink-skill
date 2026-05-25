@@ -1,14 +1,13 @@
-# MonoLink_Skill
+# generate-monochrome-collage
 
-This repository contains the packaged `MonoLink_Skill.zip` archive.
+This repository contains the packaged `generate-monochrome-collage.zip` Codex skill.
 
-The archive includes a Codex skill for monochrome collage-style image prompting, with:
+The skill generates relation-first monochrome poetic collage photography prompts or images. It preserves the original MonoLink core idea: visual relationship comes before surface style.
 
-- `SKILL.md`
-- prompt templates and composition rules
-- example prompts
-- supporting style-analysis resources
+The package uses a normalized Codex skill structure:
 
-## Download
+- `generate-monochrome-collage/SKILL.md`
+- `generate-monochrome-collage/agents/openai.yaml`
+- `generate-monochrome-collage/references/*.md`
 
-Download `MonoLink_Skill.zip` from this repository and extract it into your Codex skills directory when you want to use the skill locally.
+Install by extracting `generate-monochrome-collage.zip` into your Codex skills directory.
